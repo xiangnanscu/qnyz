@@ -98,6 +98,7 @@ const VITE_PROXY_PREFIX_REGEX = new RegExp("^" + VITE_PROXY_PREFIX);
 const VITE_APP_NAME = process.env.VITE_APP_NAME;
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/qnyz/",
   plugins,
   define: envKeys,
   optimizeDeps: {
