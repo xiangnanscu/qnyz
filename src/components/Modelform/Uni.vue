@@ -259,13 +259,14 @@ const submit = async () => {
         />
       </uni-forms-item>
     </template>
-    <x-button
+    <button
       v-if="!props.hideSubmitButton"
       :disabled="submiting"
+      type="primary"
       @click="submit"
     >
       {{ props.submitButtonText }}
-    </x-button>
+    </button>
   </uni-forms>
 </template>
 <style scoped>

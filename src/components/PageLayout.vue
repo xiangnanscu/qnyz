@@ -10,6 +10,8 @@ const { message, error } = storeToRefs(useStore());
 </script>
 <style>
 .page-layout {
+  max-width: 400px;
+  margin: auto;
   padding: 5px 8px;
 }
 
