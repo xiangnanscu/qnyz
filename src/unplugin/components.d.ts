@@ -14,5 +14,7 @@ declare module '@vue/runtime-core' {
     PageLayout: typeof import('./../components/PageLayout.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    WxAvatar: typeof import('./../components/wx-avatar.vue')['default']
+    XButton: typeof import('./../components/x-button.vue')['default']
   }
 }
