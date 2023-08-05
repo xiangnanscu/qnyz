@@ -1,0 +1,48 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "views/tabbar/Home",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "views/Uform",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "views/Test",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "color": "#8F8F94",
+    "selectedColor": "#f33e54",
+    "list": [
+      {
+        "pagePath": "views/tabbar/Home",
+        "iconPath": "static/gqt.png",
+        "selectedIconPath": "static/gqt.png",
+        "text": "首页"
+      },
+    ]
+  }
+}
