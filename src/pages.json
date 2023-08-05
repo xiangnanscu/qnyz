@@ -1,29 +1,12 @@
 {
   "easycom": {
     "autoscan": true,
-    "custom": {
-      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
-    }
+    "custom": { "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue" }
   },
   "pages": [
-    {
-      "path": "views/tabbar/Home",
-      "style": {
-        "navigationBarTitleText": ""
-      }
-    },
-    {
-      "path": "views/Uform",
-      "style": {
-        "navigationBarTitleText": ""
-      }
-    },
-    {
-      "path": "views/Test",
-      "style": {
-        "navigationBarTitleText": ""
-      }
-    }
+    { "path": "views/tabbar/Home", "style": { "navigationBarTitleText": "" } },
+    { "path": "views/Uform", "style": { "navigationBarTitleText": "" } },
+    { "path": "views/Test", "style": { "navigationBarTitleText": "" } }
   ],
   "globalStyle": {
     "navigationBarTextStyle": "black",
@@ -42,7 +25,7 @@
         "iconPath": "static/gqt.png",
         "selectedIconPath": "static/gqt.png",
         "text": "首页"
-      },
+      }
     ]
   }
 }

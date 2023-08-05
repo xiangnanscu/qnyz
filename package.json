@@ -1,6 +1,6 @@
 {
   "name": "qnyz",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "license": "ISC",
   "scripts": {
     "env": "dotenv -e .env -e .env.local --",
